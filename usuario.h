@@ -16,6 +16,7 @@ public:
     usuario(string usuarioLogin,string usuarioSenha,bool admin);
     void getinfo();
     bool isadmin();
+    bool compareLogin(string login,string senha);
 };
 
 

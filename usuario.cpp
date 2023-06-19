@@ -22,3 +22,11 @@ bool usuario::isadmin(){
         return false;
     }
 }
+
+bool usuario::compareLogin(string login,string senha){
+    if(this->usuarioLogin == login && this->usuarioSenha == senha){
+        return true;
+    }else{
+        return false;
+    }
+}
